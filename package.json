@@ -1,0 +1,27 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "A simple GraphQL todos API",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon"
+  },
+  "author": "Fitsum Ayalew <fitsumayalew047@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.10.0",
+    "graphql": "^14.6.0",
+    "graphql-custom-types": "^1.5.1",
+    "install": "^0.13.0",
+    "knex": "^0.20.9",
+    "objection": "^2.1.2",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "nodemon": "^2.0.2"
+  }
+}
