@@ -11,7 +11,7 @@
   "author": "Fitsum Ayalew <fitsumayalew047@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.10.0",
+    "apollo-server": "^2.14.2",
     "bcrypt": "^3.0.8",
     "graphql": "^14.6.0",
     "graphql-custom-types": "^1.5.1",
